@@ -5,9 +5,11 @@ This is the basis for a small codebase to parse, manipulate, and ingest Foundati
 ## Roadmap
 
 - [X] Mirror parser script from previous Dropbox location
-- [ ] Build secure API for ingesting Foundation reports to GCS
-  - [ ] Authentication via Google to align with GCP IAMs
-- [ ] Perform all ETL and data management of Foundation XML to:
-  - [ ] CSV files
+- [X] Performant parser to
+  - [X] CSV files
+  - [X] Excel file
+- More flexible and complete parser to:
+  - [ ] python objects
   - [ ] json files
   - [ ] bigquery tables
+- [ ] Parser report
